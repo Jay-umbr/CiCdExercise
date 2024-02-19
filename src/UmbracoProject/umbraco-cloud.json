@@ -6,6 +6,12 @@
       "Id": "3fc207ab-8b1c-46e9-a0bb-67da708c1749",
       "Workspaces": [
         {
+          "Id": "b72df316-de6e-49a7-b5d7-0c19ef1adcae",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-cicdexercise.euwest01.umbraco.io"
+        },
+        {
           "Id": "7030871c-4584-493a-a799-109fb2f43caf",
           "Name": "Live",
           "Type": "live",

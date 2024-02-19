@@ -1,0 +1,76 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/16ade1eaa0204329953d887305c03439",
+  "AllowedTemplates": [
+    "umb://template/16ade1eaa0204329953d887305c03439"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-home color-black",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "3b9bf7af-1617-4222-a007-653252c9fc63",
+      "Name": "Header",
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "057c9bfd-eaf6-4216-9798-cfd26b67a83b",
+          "Alias": "companyName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Name"
+        },
+        {
+          "Key": "5931f936-a8ef-4298-9ed7-6662b43e8bf2",
+          "Alias": "highlightText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Highlight Text",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "Key": "87a9a7d2-9b34-4c48-9e9b-f6f4bc27ae5f",
+      "Name": "Footer",
+      "SortOrder": 1,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "e08e2b8d-3edb-489b-8891-56e75083be17",
+          "Alias": "companyAddress",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Company Address"
+        },
+        {
+          "Key": "e982deae-147a-44c6-b5d7-545f8f3aa943",
+          "Alias": "companyPhone",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Phone",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/42ca599cca7c46a38c198028bc9af6ee",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/16ade1eaa0204329953d887305c03439",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.0.3"
+}
